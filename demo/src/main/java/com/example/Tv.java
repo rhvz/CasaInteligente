@@ -1,27 +1,26 @@
 public class Tv{
-    Private boolean ligaDesliga;
+    private boolean ligaDesliga;
 
-    public boolean isligaDesliga(){
+    public boolean isLigaDesliga() {
         return ligaDesliga;
     }
 
-    public void setligaDesliga(boolean,ligaDesliga){
+    public void setLigaDesliga(boolean ligaDesliga) {
         this.ligaDesliga = ligaDesliga;
     }
 
-    public void desligar(){
-        setligaDesliga(ligaDesliga:false);
-
+    public void desligar() 
+    {
+        setLigaDesliga(false); 
     }
 
-    public void ligar(){
-        setligaDesliga(ligaDesliga,true);
+    public void ligar()
+    {
+        setLigaDesliga(true);
     }
 
-    public boolean ligadoOuNao(){
-        return isligaDesliga;
+    public boolean ligadoOuNão()
+    {
+       return isLigaDesliga();
     }
-
-
-
 }
