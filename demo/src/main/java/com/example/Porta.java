@@ -1,27 +1,26 @@
 public class Porta{
-    Private boolean ligaDesliga;
+    private boolean abertoFechado;
 
-    public boolean isligaDesliga(){
-        return ligaDesliga;
+    public boolean isAbertoFechado() {
+        return abertoFechado;
     }
 
-    public void setligaDesliga(boolean,ligaDesliga){
-        this.ligaDesliga = ligaDesliga;
+    public void setAbertoFechado(boolean abertoFechado) {
+        this.abertoFechado = abertoFechado;
     }
 
-    public void desligar(){
-        setligaDesliga(ligaDesliga:false);
-
+    public void fechar() 
+    {
+        setAbertoFechado(false); 
     }
 
-    public void ligar(){
-        setligaDesliga(ligaDesliga,true);
+    public void abrir()
+    {
+        setAbertoFechado(true);
     }
 
-    public boolean ligadoOuNao(){
-        return isligaDesliga;
+    public boolean abertoOuNao()
+    {
+       return isAbertoFechado();
     }
-
-
-
 }
