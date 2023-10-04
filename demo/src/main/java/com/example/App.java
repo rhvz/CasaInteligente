@@ -90,7 +90,7 @@ public class App
     {
         System.out.print("Digite o canal da TV: ");
         int channel = scanner.nextInt();
-        tv.setCanal(channel);
+        tv.mudaCanal(channel);
         System.out.println("A TV está no canal " + tv.getCanal());
     }
 
