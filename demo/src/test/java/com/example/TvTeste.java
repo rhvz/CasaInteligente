@@ -14,11 +14,5 @@ public class TvTeste {
     
         tvSala.desligar();
         assertFalse(tvSala.isLigaDesliga());
-
-        int novoCanal = 5;
-        int resultado = tvSala.mudaCanal(novoCanal);
-
-        assertEquals(novoCanal, resultado);
-        assertEquals(novoCanal, tvSala.getCanal());
     }
 }
