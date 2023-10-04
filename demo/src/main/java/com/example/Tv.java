@@ -1,7 +1,8 @@
+package com.example;
+
 public class Tv
 {
     private boolean ligaDesliga;
-    private int canal;
 
     public boolean isLigaDesliga() {
         return ligaDesliga;
@@ -29,7 +30,7 @@ public class Tv
     {
         if(novoCanal >= 0)
         {
-        setCanal(novoCanal);
+        mudaCanal(novoCanal);
         return novoCanal;
         }
         else
@@ -37,5 +38,9 @@ public class Tv
             System.out.println("O canal deve ser de um número não negativo.");
             return -1;
         }
+    }
+
+    public String getCanal() {
+        return null;
     }
 }
