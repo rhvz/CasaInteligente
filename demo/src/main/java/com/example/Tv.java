@@ -26,21 +26,4 @@ public class Tv
     {
        return isLigaDesliga();
     }
-    public int mudaCanal(int novoCanal)
-    {
-        if(novoCanal >= 0)
-        {
-        mudaCanal(novoCanal);
-        return novoCanal;
-        }
-        else
-        {
-            System.out.println("O canal deve ser de um número não negativo.");
-            return -1;
-        }
-    }
-
-    public String getCanal() {
-        return null;
-    }
 }
